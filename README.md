@@ -3,11 +3,13 @@ Maze Generation using Python and Pygames module. My code implements a recursive 
 
 The Pseduocode is as follows:
 
-1.Choose next block (direction)
-2.Put direction value in current block
-3.If next block is empty
-  -Repeat algorithim
-  Else, if next block is full (out of bounds/has value)
-    - check if any other empty directions
-    - if so, change direction till an empty one is found
-    - if not, go back a block 
+1. Choose next block (direction)
+1. Put direction value in current block
+1. If next block is empty, repeat algorithim
+  1. Else, if next block is full (out of bounds/has value)
+  1. check if any other empty directions
+  1.  if so, change direction till an empty one is found
+  1.  if not, go back a block 
+
+NOTE:
+- This code is a rough code and needs to be tweaked for little bugs and such that make the maze disconnected in some parts, this will be added further in
