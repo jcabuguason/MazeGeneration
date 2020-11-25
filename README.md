@@ -11,5 +11,7 @@ The Pseduocode is as follows:
   1.  if so, change direction till an empty one is found
   1.  if not, go back a block 
 
+
+![Project diagram](mazegeneratedex.png)
 NOTE:
 - This code is a rough code and needs to be tweaked for little bugs and such that make the maze disconnected in some parts, this will be added further in
